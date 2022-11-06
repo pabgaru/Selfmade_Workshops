@@ -119,7 +119,7 @@ void initializeOvisWindow(cv::Ptr<cv::ovis::WindowScene>& win, std::string windo
         */
     }
     else{
-        win->createEntity("ava", "ava.mesh", cv::Vec3f(0, 0, 0), cv::Vec3f(1.57, 0.0, 0.0));   
+        win->createEntity("customObject", customObjectFile, cv::Vec3f(0, 0, 0), cv::Vec3f(1.57, 0.0, 0.0));   
     }
 
 }
